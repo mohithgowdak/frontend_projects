@@ -1,0 +1,21 @@
+      
+      .addCarButton{
+        position: absolute; 
+        bottom: 50px;
+        right: 70px;
+    }
+    .addCarButton button{                 
+        width: 60px; 
+        height: 60px;
+    }
+    /* For tablets and mobile*/
+@media screen and (max-width: 710px){
+    .addCarButton{
+        right: 10px;
+        bottom: 10px;
+    }
+    .addCarButton button{
+        width: 50px; 
+        height: 50px;
+    }
+}
